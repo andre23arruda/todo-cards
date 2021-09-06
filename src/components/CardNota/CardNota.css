@@ -40,10 +40,19 @@ span.delete:hover {
 .card-nota_texto {
   margin-top: 8px;
   font-size: 1em;
+  word-break: break-word;
 }
 
 .card-nota_titulo {
   font-size: 1.2em;
   margin-right: 12px;
   font-weight: bold;
+  word-break: break-word;
+}
+
+
+@media (max-width: 700px) {
+  .form-cadastro_input {
+    height: 70px;
+  }
 }

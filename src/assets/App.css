@@ -1,5 +1,6 @@
 .conteudo {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 :root {
@@ -8,4 +9,10 @@
   --secundaria-ativa: #cccccc;
   --fundo: #ffffff;
   --fundo-detalhes: #ececec;
+}
+
+@media (max-width: 700px) {
+  .conteudo {
+    grid-template-columns: auto;
+  }
 }

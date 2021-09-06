@@ -1,10 +1,9 @@
 .lista-notas {
   background-color: var(--fundo);
-  width: 70%;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   list-style-type: none;
-  padding: 24px;
+  margin: 24px;
 }
 
 .lista-notas_item {
@@ -13,4 +12,16 @@
   max-height: 200px;
   display: inline;
   border-radius: 4px;
+}
+
+@media (max-width: 1025px) {
+  .lista-notas {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .lista-notas {
+    grid-template-columns: auto auto;
+  }
 }

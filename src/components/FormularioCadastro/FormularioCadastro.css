@@ -1,11 +1,11 @@
 .form-cadastro {
-  width: 30%;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  /* width: 30%; */
+  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); */
   z-index: 1;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
-  padding: 24px;
+  margin: 24px;
 }
 .form-cadastro_input {
   margin-top: 8px;
@@ -31,3 +31,9 @@
 .form-cadastro_submit:active {
   background-color: var(--secundaria-ativa);
 }
+/*
+@media (max-width: 1025px) {
+  .form-cadastro {
+    width: 90%;
+  }
+} */

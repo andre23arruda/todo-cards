@@ -48,4 +48,5 @@ yarn start
 
 <h1 align="center">
     <img alt="Image 1" src=".github/image_1.png" width="600px" />
+    <img alt="Image 2" src=".github/image_2.png" width="200px" />
 </h1>
