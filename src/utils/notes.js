@@ -18,6 +18,7 @@ function deletarNota(notas, setNotas, index) {
     let arrayNotas = notas
     arrayNotas.splice(index, 1)
     setNotas([...arrayNotas])
+    localStorage.setItem('notas', JSON.stringify(arrayNotas))
 }
 
 function loadFromStorage() {

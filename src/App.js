@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+
+import { Header } from './components/Header'
 import ListaDeNotas from './components/ListaDeNotas'
 import FormularioCadastro from './components/FormularioCadastro'
 
@@ -14,7 +16,11 @@ const App = () => {
 	const [notas, setNotas] = useState(startNotas)
 
 	return (
+		<>
+		<Header />
+
 		<section className="conteudo">
+
 			<FormularioCadastro
 				criarNota={ criarNota }
 				notas={ notas }
@@ -27,6 +33,7 @@ const App = () => {
 				setNotas={ setNotas }
 			/>
 		</section>
+		</>
 	)
 }
 

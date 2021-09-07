@@ -1,0 +1,17 @@
+header.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin: 10px 24px
+}
+
+header .react-switch{
+    height: 50%;
+    align-self: center;
+    margin-right: 24px;
+}

@@ -9,6 +9,12 @@
   --secundaria-ativa: #cccccc;
   --fundo: #ffffff;
   --fundo-detalhes: #ececec;
+  --fundo-detalhes-dark: #8b8b8b;
+}
+
+body.dark {
+  background-color: #4e4e4e;
+  color: #fff;
 }
 
 @media (max-width: 700px) {
