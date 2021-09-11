@@ -1,9 +1,9 @@
 {
+    "short_name": "to-do",
     "name": "TO DO Cards",
-    "short_name": "TO DO",
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
-    "display": "browser",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/"
 }

@@ -9,6 +9,12 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   padding: 0 16px 16px;
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .dark .card-nota {

@@ -31,8 +31,8 @@ const Header = () => {
                 className="react-switch"
                 onColor="#888"
                 offColor="#ccc"
-                uncheckedIcon={``}
-                checkedIcon={``}
+                uncheckedIcon={ false }
+                checkedIcon={ false }
                 uncheckedHandleIcon={
                     <div style={{
                         display: "flex",
