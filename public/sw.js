@@ -1,5 +1,9 @@
 const CACHE_NAME = 'to-do'
-const urlsToCache = ['/']
+const urlsToCache = [
+    '/',
+    'index.html',
+    'manifest.json'
+]
 
 self.addEventListener('install', function (event) {
     event.waitUntil(
