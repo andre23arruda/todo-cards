@@ -13,14 +13,16 @@
 </p>
 
 <p align="center">
+  <a href="#-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instalação">Instalação</a>
 </p>
 
+## 😀 Demo
+<a href="https://andre23arruda-todo.netlify.app/">Dê uma olhada</a>
 
 ## 🚀 Tecnologias
-
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
