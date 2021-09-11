@@ -1,8 +1,14 @@
 const CACHE_NAME = 'to-do'
 const urlsToCache = [
     '/',
+    '/static/js/bundle.js',
+    '/static/js/main.chunk.js',
+    '/static/css/main.chunk.css',
     'index.html',
-    'manifest.json'
+    'manifest.json',
+    'favicon.ico',
+    'logo192.png',
+    'logo512.png',
 ]
 
 self.addEventListener('install', function (event) {
