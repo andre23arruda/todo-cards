@@ -1,9 +1,6 @@
 const CACHE_NAME = 'to-do'
 const urlsToCache = [
     '/',
-    '/static/js/bundle.js',
-    '/static/js/main.chunk.js',
-    '/static/css/main.chunk.css',
     'index.html',
     'manifest.json',
     'favicon.ico',
