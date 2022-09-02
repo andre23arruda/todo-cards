@@ -20,7 +20,7 @@
 </p>
 
 ## 😀 Demo
-<a href="https://andre23arruda-todo.netlify.app/">Dê uma olhada</a>
+<a href="https://andre23arruda-todo.vercel.app/">Dê uma olhada</a>
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
