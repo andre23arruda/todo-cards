@@ -4,7 +4,6 @@ import Switch from 'react-switch'
 import { changeTheme, loadTheme } from '../../utils/theme'
 
 import './Header.css'
-import logo from '../../assets/img/logo192.png'
 
 
 const Header = () => {
@@ -21,7 +20,7 @@ const Header = () => {
 	return (
 		<header className="header">
 			<div className="logo">
-				<img src={ logo } height={ 50 } alt="TO DO Cards"/>
+				<img src="/logo192.png" height={ 50 } alt="TO DO Cards"/>
 				<h3>My TO DO Cards</h3>
 			</div>
 
