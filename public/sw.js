@@ -3,7 +3,7 @@ const urlsToCache = [
     '/',
     '/static/css/main.7d4378ab.chunk.css',
     '/static/js/2.18097d84.chunk.js',
-    '/static/js/main.485cbf2e.chunk.js',
+    '/static/js/main.4e574c7e.chunk.js',
     'index.html',
     'manifest.json',
     'favicon.ico',
